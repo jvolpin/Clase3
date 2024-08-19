@@ -11,6 +11,7 @@ public class Tienda {
     }
 
     public void agregarProducto(Producto producto) {
+        inventario.add(producto);
     }
 
     public void mostrarInventario() {
@@ -19,5 +20,4 @@ public class Tienda {
             System.out.println(producto);
         }
     }
-
 }
