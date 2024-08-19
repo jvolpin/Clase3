@@ -11,10 +11,14 @@ public class Tienda {
     }
 
     public void agregarProducto(Producto producto) {
+        inventario.add(producto);
     }
 
     public void mostrarInventario() {
         System.out.println("Inventario: ");
+        for (Producto producto : inventario) {
+            System.out.println(producto);
+        }
     }
 
 }
