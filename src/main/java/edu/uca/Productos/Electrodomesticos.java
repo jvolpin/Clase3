@@ -1,14 +1,15 @@
 package edu.uca.Productos;
 
 public class Electrodomesticos extends Producto {
-    private String garantia;
+    private int garantia;
 
-    public Electrodomesticos(int cantidad, String garantia, int precio, int id, String nombre) {
+
+    public Electrodomesticos(int garantia, double precio, int id, String nombre) {
         super(id, nombre, precio);
         this.garantia = garantia;
     }
 
-    public String getGarantia() {
+    public int getGarantia() {
         return garantia;
     }
     public String toString() {

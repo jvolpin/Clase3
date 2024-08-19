@@ -2,12 +2,12 @@ package edu.uca.Productos;
 
 public class Ropa extends Producto {
     private String Talle;
-    private String Color;
+    private String Marca;
 
-    public Ropa(int id, String nombre, int precio, String Talle, String Color) {
+    public Ropa(int id, String nombre, int precio, String Talle, String Marca) {
         super(id, nombre, precio);
         this.Talle = Talle;
-        this.Color = Color;
+        this.Marca = Marca;
 
     }
     public String getTalle() {
@@ -15,11 +15,11 @@ public class Ropa extends Producto {
     }
 
     public String getColor() {
-        return Color;
+        return Marca;
     }
 
     @Override
     public String toString() {
-        return super.toString() + ", talla=" + Talle + ", color=" + Color + "}";
+        return super.toString() + ", talla=" + Talle + ", color=" + Marca + "}";
     }
 }
