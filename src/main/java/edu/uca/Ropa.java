@@ -6,4 +6,3 @@ public class Ropa {
     private int edad;
     public Ropa(String nombre, String apellido, int edad) {}
 }
-
