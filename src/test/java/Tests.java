@@ -1,4 +1,4 @@
-import edu.uca.Producto;
+import edu.uca.Productos.Producto;
 import edu.uca.Tienda;
 import org.testng.Assert;
 import org.testng.annotations.Test;
