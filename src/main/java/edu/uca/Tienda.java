@@ -1,10 +1,12 @@
 package edu.uca;
 
+import org.testng.ITest;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class Tienda {
-    private List<Producto> inventario = new ArrayList<>();
+    private final List<Producto> inventario = new ArrayList<>();
 
     public int getSize(){
         return inventario.size();
@@ -15,6 +17,9 @@ public class Tienda {
 
     public void mostrarInventario() {
         System.out.println("Inventario: ");
+        for (Producto producto : inventario) {
+            System.out.println(producto);
+        }
     }
 
 }
