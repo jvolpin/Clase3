@@ -1,4 +1,7 @@
 package edu.uca.producto;
 
-public class ProductoBase {
+public abstract class ProductoBase {
+    protected String nombre;
+    protected String descripcion;
+        
 }
